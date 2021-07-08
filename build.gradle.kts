@@ -28,6 +28,7 @@ repositories {
 }
 
 dependencies {
+    implementation(gradleApi())
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("com.didiglobal.booster:booster-api:3.3.1")
