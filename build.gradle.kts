@@ -28,6 +28,7 @@ repositories {
 }
 
 dependencies {
+    kapt("com.google.auto.service:auto-service:1.0")
     implementation(gradleApi())
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
